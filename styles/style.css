@@ -184,19 +184,9 @@ html {
     line-height: 120%; /* 19.2px */
 }
 
-.sign-up {
-    display: block;
-    padding: 10px 12px;
-
-    color: #EEE;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 19.2px */
-
+.log-in:hover {
     border-radius: 4px;
-    background: #0F8277;
+    border: 1px solid #0F8277;
 }
 
 .main-wrapper {
@@ -256,6 +246,21 @@ h1 {
     background: #0F8277;
 }
 
+.green-btn:hover {
+    padding: 10px 12px;
+
+    border-radius: 4px;
+    border: 2px solid #0F8277;
+
+    color: #0F8277;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    background: inherit;
+}
+
 .buttons-wrapper {
     align-items: center;
     gap: 2.4rem;
@@ -273,6 +278,20 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 19.2px */
+}
+
+.white-btn:hover {
+    padding: 10px 12px;
+
+    color: #EEE;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+
+    border-radius: 4px;
+    background: #0F8277;
 }
 
 .program-header, .courses-header {
@@ -640,6 +659,9 @@ h3 {
     position: absolute;
     bottom: 0;
 }
+.plan-btn:hover {
+    color: #d3d3d3;
+}
 
 .plan-content-border {
     height: 2px;
@@ -825,7 +847,7 @@ h3 {
 }
 
 
-.social-icon{
+.social-icon {
     min-height: 3.2rem;
     min-width: 3.2rem;
 }
@@ -841,7 +863,6 @@ h3 {
 .linkedin-icon {
     background-image: url(../images/social/linkedin.svg);
 }
-
 
 
 .footer-right-wrapper p {
