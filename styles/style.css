@@ -801,6 +801,12 @@ h3 {
     border-radius: 4px;
     border: 1px solid #0F8277;
     background-color: #FDFDFD;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
 }
 
 .input-wrapper input::placeholder, .input-wrapper textarea::placeholder {
